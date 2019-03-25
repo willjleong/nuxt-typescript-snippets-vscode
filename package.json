@@ -18,10 +18,17 @@
 		"snippets": [
 			{
 				"language": "vue",
+				"extentions": [
+					".vue"
+				],
 				"path": "./src/vue-snippets.json"
 			},
 			{
 				"language": "typescript",
+				"extensions": [
+					".ts",
+					".tsx"
+				],
 				"path": "./src/typescript-snippets.json"
 			}
 		]
@@ -34,11 +41,14 @@
 		"test": "npm run compile && node ./node_modules/vscode/bin/test"
 	},
 	"devDependencies": {
+		"@types/mocha": "^2.2.42",
+		"@types/node": "^10.12.21",
+		"ts-loader": "^5.3.3",
+		"tslint": "^5.12.1",
 		"typescript": "^3.3.1",
 		"vscode": "^1.1.28",
-		"tslint": "^5.12.1",
-		"@types/node": "^10.12.21",
-		"@types/mocha": "^2.2.42"
+		"webpack": "^4.29.6",
+		"webpack-cli": "^3.3.0"
 	},
 	"dependencies": {
 		"npm": "^6.9.0"
