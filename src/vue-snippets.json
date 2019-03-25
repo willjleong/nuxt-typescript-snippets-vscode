@@ -1,0 +1,85 @@
+{
+  "scaffold-full": {
+    "prefix": "nuxt-ts",
+    "body": [
+      "<template>",
+      "  <div></div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { Component, Vue } from \"nuxt-property-decorator\"",
+      "",
+      "@Component({})",
+      "export default class ${1:MyClass} extends Vue {}",
+      "</script>",
+      "",
+      "<style ${2|scoped,|} lang=\"${3|scss,css,less,styl,sass|}\">",
+      "</style>",
+      ""
+    ],
+    "description": "scaffold-full-scss"
+  },
+  "scaffold-full-scss": {
+    "prefix": "nuxt-ts",
+    "body": [
+      "<template>",
+      "  <div></div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { Component, Vue } from \"nuxt-property-decorator\"",
+      "",
+      "@Component({})",
+      "export default class ${1:MyClass} extends Vue {}",
+      "</script>",
+      "",
+      "<style ${2|scoped,|} lang=\"scss\">",
+      "</style>",
+      ""
+    ],
+    "description": "scaffold-full-scss"
+  },
+  "scaffold-full-scss-scoped": {
+    "prefix": "nuxt-ts",
+    "body": [
+      "<template>",
+      "  <div></div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { Component, Vue } from \"nuxt-property-decorator\"",
+      "",
+      "@Component({})",
+      "export default class ${1:MyClass} extends Vue {}",
+      "</script>",
+      "",
+      "<style ${2|scoped,|} lang=\"scss\">",
+      "</style>",
+      ""
+    ],
+    "description": "scaffold-full-scss"
+  },
+  "scaffold-state-scss-scoped": {
+    "prefix": "nuxt-ts",
+    "body": [
+      "<template>",
+      "  <div></div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "import { Component, Vue } from \"nuxt-property-decorator\"",
+      "import { State } from \"vuex-class\"",
+      "",
+      "@Component({})",
+      "export default class ${1:MyClass} extends Vue {",
+      "  @State()",
+      "}",
+      "</script>",
+      "",
+      "<style ${2|scoped,|} lang=\"scss\">",
+      "</style>",
+      ""
+    ],
+    "description": "scaffold-full-scss"
+  }
+}

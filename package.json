@@ -1,6 +1,6 @@
 {
 	"name": "nuxt-typescript-snippets",
-	"publisherName": "willjleong",
+	"publisher": "willjleong",
 	"displayName": "Nuxt Typescript Snippets",
 	"description": "code generator & snippets for nuxt apps that utilize typescript & nuxt property decorator",
 	"version": "0.1.0",

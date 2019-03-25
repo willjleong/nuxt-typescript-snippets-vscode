@@ -1,0 +1,23 @@
+{
+  "store": {
+    "prefix": "nuxt-ts",
+    "body": [
+      "import { RootState } from \"~/types\"",
+      "import { MutationTree, ActionTree, GetterTree} from \"vuex\"",
+      "",
+      "export interface ${1:Module}State {",
+      "}",
+      "",
+      "export const state = (): ${1:Module}State => ({",
+      "})",
+      "",
+      "export const mutations: MutationTree<${1:Module}State> = {",
+      "}",
+      "",
+      "export const actions: ActionTree<${1:Module}State, RootState> = {",
+      "}",
+      ""
+    ],
+    "description": "store"
+  }
+}
