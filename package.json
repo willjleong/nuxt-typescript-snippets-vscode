@@ -1,6 +1,6 @@
 {
 	"name": "nuxt-typescript-snippets",
-	"repository": "",
+	"repository": "https://github.com/willjleong/nuxt-typescript-snippets-vscode",
 	"publisher": "willjleong",
 	"displayName": "Nuxt Typescript Snippets",
 	"description": "code generator & snippets for nuxt apps that utilize typescript & nuxt property decorator",
