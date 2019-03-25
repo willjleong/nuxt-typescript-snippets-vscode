@@ -1,6 +1,7 @@
 # nuxt-typescript-snippets README
 
 Vscode snippets to make creating new files with `nuxt-ts`, `nuxt-property-decorator`, and `vuex-class` easy.
+Some snippets such as `nuxt `
 
 ## Features
 
@@ -13,8 +14,12 @@ Vscode snippets to make creating new files with `nuxt-ts`, `nuxt-property-decora
    1. `store` - Generates a store and allows the user to fill in the store name & types. Does assume a RootStore type exists from the layout in [nuxt-community typescript-template](https://github.com/nuxt-community/typescript-template)
 
 ## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+1. [vetur](https://github.com/vuejs/vetur)
+2. [nuxt](https://github.com/nuxt/nuxt.js)
+3. [nuxt-property-decorator](https://github.com/nuxt-community/nuxt-property-decorator)
+4. [vuex-class](https://github.com/ktsn/vuex-class)
+5. [nuxt-community typescript-template](https://github.com/nuxt-community/typescript-template) (Some scaffolding in this extension assume using this template i.e. importing the RootStore from `types/index.ts` in the store snippets)
+6. (Optional) any appropriate style loader for the style lang for .vue files.
 
 ## Extension Settings
 
@@ -30,7 +35,5 @@ None yet.. :|
 ### 0.1.0
 - Added vue-typescript templates for single file component with style variations
 - Added typescript template for creating a store with layout similar to the [nuxt-community typescript-template](https://github.com/nuxt-community/typescript-template)
-
-Added features X, Y, and Z.
 
 **Enjoy!**
