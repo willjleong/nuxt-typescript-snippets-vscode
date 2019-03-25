@@ -1,5 +1,5 @@
 {
-  "scaffold-full": {
+  "scaffold": {
     "prefix": "nuxt-ts",
     "body": [
       "<template>",
@@ -19,7 +19,7 @@
     ],
     "description": "scaffold-full-scss"
   },
-  "scaffold-full-scss": {
+  "scaffold-with-scss": {
     "prefix": "nuxt-ts",
     "body": [
       "<template>",
@@ -39,7 +39,7 @@
     ],
     "description": "scaffold-full-scss"
   },
-  "scaffold-full-scss-scoped": {
+  "scaffold-with-scss-scoped": {
     "prefix": "nuxt-ts",
     "body": [
       "<template>",
@@ -59,7 +59,7 @@
     ],
     "description": "scaffold-full-scss"
   },
-  "scaffold-state-scss-scoped": {
+  "scaffold-with-state-scss-scoped": {
     "prefix": "nuxt-ts",
     "body": [
       "<template>",
