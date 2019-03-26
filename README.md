@@ -32,9 +32,10 @@ None yet.. :|
 
 ## Release Notes
 
-### 0.1.2
+### 0.1.3
 - Added vue-typescript templates for single file component with style variations
 - Added typescript template for creating a store with layout similar to the [nuxt-community typescript-template](https://github.com/nuxt-community/typescript-template)
 - Fixed snippets being ignored 
+- add node_modules to .vscodeignore
 
 **Enjoy!**
