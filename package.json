@@ -21,7 +21,7 @@
 				"extentions": [
 					".vue"
 				],
-				"path": "./src/vue-snippets.json"
+				"path": "./vue.json"
 			},
 			{
 				"language": "typescript",
@@ -29,7 +29,7 @@
 					".ts",
 					".tsx"
 				],
-				"path": "./src/typescript-snippets.json"
+				"path": "./typescript.json"
 			}
 		]
 	},

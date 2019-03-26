@@ -13,3 +13,7 @@
 ## [0.1.1]
 ### Added
 - Extensions config
+
+## [0.1.2]
+### Added
+- Move snippet .json files outside of src
