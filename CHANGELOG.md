@@ -17,3 +17,7 @@
 ## [0.1.2]
 ### Added
 - Move snippet .json files outside of src
+
+## [0.1.3]
+### Added
+- add node_modules to .vscodeignore
