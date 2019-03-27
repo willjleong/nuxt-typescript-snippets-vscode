@@ -13,7 +13,7 @@
       "export default class ${1:MyClass} extends Vue {}",
       "</script>",
       "",
-      "<style ${2|scoped,|} lang=\"${3|scss,css,less,styl,sass|}\">",
+      "<style scoped=${2|true,false|} lang=\"${3|scss,css,less,styl,sass|}\">",
       "</style>",
       ""
     ],
@@ -33,7 +33,7 @@
       "export default class ${1:MyClass} extends Vue {}",
       "</script>",
       "",
-      "<style ${2|scoped,|} lang=\"scss\">",
+      "<style scoped=\"${2|true,false|}\" lang=\"scss\">",
       "</style>",
       ""
     ],
@@ -53,11 +53,11 @@
       "export default class ${1:MyClass} extends Vue {}",
       "</script>",
       "",
-      "<style ${2|scoped,|} lang=\"scss\">",
+      "<style scoped lang=\"scss\">",
       "</style>",
       ""
     ],
-    "description": "scaffold-full-scss"
+    "description": "scaffold-full-scss-scoped"
   },
   "scaffold-with-state-scss-scoped": {
     "prefix": "nuxt-ts",
@@ -76,10 +76,10 @@
       "}",
       "</script>",
       "",
-      "<style ${2|scoped,|} lang=\"scss\">",
+      "<style scoped lang=\"scss\">",
       "</style>",
       ""
     ],
-    "description": "scaffold-full-scss"
+    "description": "scaffold-with-state-full-scss-scoped"
   }
 }
